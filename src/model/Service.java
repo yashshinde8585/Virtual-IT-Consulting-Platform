@@ -1,4 +1,6 @@
 package model;
 
-public class Service {
+// Service interface for polymorphism
+public interface Service {
+    void provideService();
 }
